@@ -1,0 +1,8 @@
+﻿^XA	
+^FX Top section with logo, name and address.			
+^FO1,30^GB[ana],0,7,^FS			
+^BY8,3.0,20,^FO[are],50^B^B3N,N,150,N,N3^FD[codBare1]^FS			
+^FO[multe],225^A0N,80,200^FD[cpn]^FS			
+^FO[mere],305^A0N,150,200 1,55^FD[pnData]^FS			
+^FO[gustoase],425^B3N,N,152,N,N^FD[codBare2]^FS		
+^XZ
