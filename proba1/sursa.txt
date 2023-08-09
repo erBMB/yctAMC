@@ -1,0 +1,8 @@
+﻿^XA			
+^FX Top section with logo, name and address.			
+^FO1,30^GB477,0,7,^FS			
+^BY8,3.0,20,^FO25,50^B^B3N,N,150,N,N3^FDNE005^FS			
+^FO42,225^A0N,80,200^FD82730-05B21^FS			
+^FO50,305^A0N,150,200 1,55^FD3628-22I13^FS			
+^FO42,425^B3N,N,152,N,N^FD3628^FS			
+^XZ
