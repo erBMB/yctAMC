@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +23,8 @@ namespace proba1
 
         private void Load_Click(object sender, EventArgs e)
         {
-            string path = Path.Combine(Directory.GetCurrentDirectory(), "sursa.txt");
+            // string path = Path.Combine(Directory.GetCurrentDirectory(), "sursa.txt");
+            string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName + "/sursaMea/sursaMultipla.txt";
             string text = File.ReadAllText(path, Encoding.UTF8);
             // Replace [NAME] with a variable's value
             string codBare1 = "ana";
@@ -46,6 +49,12 @@ namespace proba1
                  .Replace("[mere]", (mere + int.Parse(txtOffset.Text)).ToString())
                 .Replace("[gustoase]", gustoase + int.Parse(txtOffset.Text).ToString());
             txtArat.Text= modifiedContent;
+        }
+
+        private void btnLabelary_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("http://labelary.com/viewer.html");
+            Process.Start(sInfo);
         }
     }
 }

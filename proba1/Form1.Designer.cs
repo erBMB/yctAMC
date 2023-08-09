@@ -31,6 +31,7 @@
             this.Load = new System.Windows.Forms.Button();
             this.txtOffset = new System.Windows.Forms.TextBox();
             this.txtArat = new System.Windows.Forms.TextBox();
+            this.btnLabelary = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Load
@@ -60,11 +61,22 @@
             this.txtArat.Size = new System.Drawing.Size(464, 297);
             this.txtArat.TabIndex = 2;
             // 
+            // btnLabelary
+            // 
+            this.btnLabelary.Location = new System.Drawing.Point(43, 305);
+            this.btnLabelary.Name = "btnLabelary";
+            this.btnLabelary.Size = new System.Drawing.Size(110, 39);
+            this.btnLabelary.TabIndex = 3;
+            this.btnLabelary.Text = "Labelary";
+            this.btnLabelary.UseVisualStyleBackColor = true;
+            this.btnLabelary.Click += new System.EventHandler(this.btnLabelary_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLabelary);
             this.Controls.Add(this.txtArat);
             this.Controls.Add(this.txtOffset);
             this.Controls.Add(this.Load);
@@ -80,6 +92,7 @@
         private System.Windows.Forms.Button Load;
         private System.Windows.Forms.TextBox txtOffset;
         private System.Windows.Forms.TextBox txtArat;
+        private System.Windows.Forms.Button btnLabelary;
     }
 }
 

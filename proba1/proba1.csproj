@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="bin\Debug\sursa.txt" />
     <Content Include="sursa.txt" />
+    <Content Include="sursaMea\sursaMultipla.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
